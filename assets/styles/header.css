@@ -1,0 +1,17 @@
+header {
+    background-color: #4CAF50;
+    padding: 30px 0;
+    margin-bottom: 40px;
+}
+
+header .site-name a,
+header .site-name a:active,
+header .site-name a:focus
+{
+    color: white;
+    font-weight: bold;
+}
+
+header .site-name a:hover {
+    text-decoration: none;
+}
