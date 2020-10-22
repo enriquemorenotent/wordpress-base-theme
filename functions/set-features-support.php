@@ -2,6 +2,9 @@
 
 function set_theme_support()
 {
+    // Tab title shows the post name
+    add_theme_support( 'title-tag' );
+
     // All kinds of post can use a "Featured image"
     add_theme_support("post-thumbnails");
 
