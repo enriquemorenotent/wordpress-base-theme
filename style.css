@@ -1,0 +1,7 @@
+body {
+    min-width: 100vh;
+}
+footer {
+    background-color: #eee;
+    padding: 40px 0;
+}

@@ -12,6 +12,8 @@
             <div class="row">
             <div class="col">
 
+                <?php wp_nav_menu( ['theme_location' => 'header-menu'] ); ?>
+
                 <h1 class="site-name"><a href="/"><?= get_bloginfo("name") ?></a></h1>
 
             </div>
