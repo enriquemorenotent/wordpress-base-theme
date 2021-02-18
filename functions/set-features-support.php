@@ -40,6 +40,8 @@ function set_theme_support()
     // Default thumbnail size
     set_post_thumbnail_size(800, 600);
 
+    // YouTube embeds will use full width of the container
+    add_theme_support( 'responsive-embeds' );
 }
 
 add_action("after_setup_theme", "set_theme_support");
